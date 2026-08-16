@@ -1,16 +1,19 @@
 @echo off
 :: ============================================
 :: Image Format Converter
+:: Version: 1.0.0
 :: Author: Usef Farahmand
 :: GitHub: https://github.com/UsefFarahmand
 :: ============================================
 setlocal enabledelayedexpansion
 
 set "scriptdir=%~dp0"
+set "appversion=1.0.0"
 
 :menu
 echo ============================================
 echo    Image Format Converter (No Software Needed)
+echo    v%appversion%
 echo ============================================
 echo.
 
